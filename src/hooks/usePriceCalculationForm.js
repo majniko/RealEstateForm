@@ -57,7 +57,7 @@ export const usePriceCalculationForm = () => {
   const submitContactForm = () => {
     let validationError = initialErrorState;
 
-    if (lead.name === " ") validationError = { ...validationError, name: true };
+    if (lead.name === "") validationError = { ...validationError, name: true };
 
     if (!validatePhone(lead.phone))
       validationError = { ...validationError, phone: true };
