@@ -1,0 +1,33 @@
+.app {
+  margin: 2vh auto;
+  text-align: center;
+}
+
+.realEstateForm {
+  margin: 1% auto;
+  text-align: left;
+  width: fit-content;
+}
+
+.radioGroupEstateType {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.radioGroupDistrict {
+  margin: auto;
+  padding-top: 2%;
+  width: 100%;
+  min-height: 15vh;
+}
+
+.formButton {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contactForm {
+  margin: 1% auto;
+  text-align: left;
+  width: fit-content;
+}
