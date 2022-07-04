@@ -9,10 +9,10 @@ const realEstateTypes = [
 
 export const initialStore = {
   priceCalculationForm: {
-    realEstateProps: {},
     estateTypes: realEstateTypes,
     districts: districtList,
     page: 1,
+    sendStatus: "",
   },
 };
 

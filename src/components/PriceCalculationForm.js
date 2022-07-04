@@ -3,6 +3,7 @@ import { ContactForm } from "./ContactForm";
 import { RealEstateForm } from "./RealEstateForm";
 import { usePriceCalculationForm } from "../hooks/usePriceCalculationForm";
 import { ContextStore } from "../store/Context";
+import { SendResult } from "./SendResult";
 
 export const PriceCalculationForm = () => {
   const { priceCalculationForm } = useContext(ContextStore);
@@ -34,6 +35,9 @@ export const PriceCalculationForm = () => {
           handleChange={handleInputChange}
           handleSubmit={submitContactForm}
         />
+      )}
+      {priceCalculationForm.page === 3 && (
+        <SendResult sendStatus={priceCalculationForm.sendStatus} />
       )}
     </div>
   );

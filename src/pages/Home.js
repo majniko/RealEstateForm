@@ -1,10 +1,10 @@
 import { Container } from "@mui/system";
 import { Button } from "@mui/material";
-import "./css/App.css";
+import "../css/App.css";
 import { Outlet } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
-export const App = () => {
+export const Home = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -12,7 +12,7 @@ export const App = () => {
   };
 
   return (
-    <Container sx={{ width: "fit-content", height: 800 }}>
+    <Container sx={{  height: 800 }}>
       <div className="app">
         <Button onClick={handleClick}>Chci nabídku</Button>
         <Outlet />

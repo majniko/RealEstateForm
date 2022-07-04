@@ -6,7 +6,7 @@
 .realEstateForm {
   margin: 1% auto;
   text-align: left;
-  width: fit-content;
+  max-width: 1000px;
 }
 
 .radioGroupEstateType {
@@ -27,7 +27,11 @@
 }
 
 .contactForm {
-  margin: 1% auto;
-  text-align: left;
-  width: fit-content;
+  margin-top: 2vh;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 2vh auto;
 }

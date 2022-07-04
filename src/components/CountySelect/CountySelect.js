@@ -6,7 +6,6 @@ export const CountySelect = ({ handleChange, selectedCounty }) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="1000"
-      height="570"
       version="1.1"
       viewBox="0 0 1412 809"
       id="svg90"

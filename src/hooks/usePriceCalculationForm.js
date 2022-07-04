@@ -69,13 +69,6 @@ export const usePriceCalculationForm = () => {
 
     if (validationError !== initialErrorState) return;
 
-    setState((old) => ({
-      ...old,
-      priceCalculationForm: {
-        ...old.priceCalculationForm,
-        estateProps: lead,
-      },
-    }));
     console.log("trying to send");
     postRealEstate({ lead });
   };
